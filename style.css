@@ -39,6 +39,9 @@
     gap: 20px;
 }
 
+a {
+    text-decoration: none;
+}
 
 .side-bar-dashboard {
     display: flex;
