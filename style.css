@@ -27,6 +27,7 @@
 }
 
 
+/************** Sidebar ***********/
 
 .side-bar {
     background-color: rgb(14, 81, 122);
@@ -96,5 +97,15 @@ ul li:nth-child(6){
 .side-bar-dashboard > [class^='material-icons'] {
     font-size: 3em;
     margin-right: 0.25em;
-  }
+}
+
+
+
+/*********  Header  ***********/
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
 
