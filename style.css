@@ -56,7 +56,9 @@ ul li:nth-child(6){
     font-weight: 600;
 }
 
-a {
+
+
+.side-bar-item a {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -65,11 +67,26 @@ a {
     font-size: 1.4rem;
 }
 
+.side-bar-dashboard span {
+    font-size: 1em;
+}
+
+.side-bar-dashboard a {
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
 .side-bar-dashboard {
     display: flex;
     align-items: center;
     font-size: 1rem;
-  }
+    gap: 1rem;
+
+}
 
 .side-bar-dashboard {
     color: white;
