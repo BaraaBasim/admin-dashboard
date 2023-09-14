@@ -301,3 +301,10 @@ ul li:nth-child(6){
     margin-bottom: 6px;
 }
 
+.card-text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
