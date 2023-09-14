@@ -236,12 +236,46 @@ ul li:nth-child(6){
 /**************** Main content ******************/
 
 .content {
-    padding: 32px;
     display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    padding: 2rem;
+}
+
+.projects {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+
+.cards {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 250px;
+    gap: 2rem;
+}
+
+.announcements {
+    padding: 1rem;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.content h2 {
+    margin-bottom: 1rem;
+}
+
+.trending {
+    padding: 1rem;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
 
 .card {
     background-color: #888888;
     border: 1px solid black;
     border-radius: 10px;
+    padding: 2rem;
+    
 }
