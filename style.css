@@ -331,6 +331,11 @@ ul li:nth-child(6){
     margin-bottom: 10px;
 }
 
+.announcement:last-child {
+    padding-bottom: 0;
+}
+  
+
 .announcement:first-child {
     padding-top: 0;
   }
