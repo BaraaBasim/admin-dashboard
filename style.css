@@ -10,7 +10,10 @@
     font-family: "Roboto";
     src: url("/media/fonts/Roboto-Regular.ttf");
     }
-    
+
+ul {
+    list-style: none;
+}
 
 button,
 input {
@@ -310,3 +313,24 @@ ul li:nth-child(6){
     overflow: hidden;
 }
 
+
+.announcements .card {
+    border: 0;
+}
+
+.trending .card {
+    border: 0;
+}
+
+.announcement {
+    width: 25ch;
+    padding: 1rem 0;
+}
+
+.announcement h4 {
+    margin-bottom: 10px;
+}
+
+.announcement:first-child {
+    padding-top: 0;
+  }
