@@ -334,6 +334,15 @@ ul li:nth-child(6){
 .announcement:last-child {
     padding-bottom: 0;
 }
+
+.announcement p {
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+  
   
 
 .announcement:first-child {
