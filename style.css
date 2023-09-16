@@ -51,7 +51,7 @@ button {
 /************** Sidebar ***********/
 
 .side-bar {
-    background-color: rgb(14, 81, 122);
+    background-color: #172554;
     min-width: 300px;
     grid-row: 1 / 3;
 
