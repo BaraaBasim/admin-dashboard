@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("/media/fonts/Roboto-Regular.ttf");
+    src: url("/media/fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 ul {
