@@ -393,7 +393,16 @@ ul li:nth-child(6){
 }
 
 .trend-1 .picture {
-    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/06fbe298931623.5ee79b6a90221.jpg) center center / cover no-repeat;;
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/2e80bb98931623.5ee79b6a8f342.jpg) center center / cover no-repeat;
+}
+.trend-2 .picture {
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/06fbe298931623.5ee79b6a90221.jpg) center center / cover no-repeat;
+}
+.trend-3 .picture {
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/8394f798931623.5ee79b6a909ea.jpg) center center / cover no-repeat;
+}
+.trend-4 .picture {
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/baa20698931623.5ee79b6a8ec2b.jpg) center center / cover no-repeat;
 }
 
 .account-trending {
